@@ -5,10 +5,14 @@
     --branco: #FFFFFF;
     --vinho:  #722F37;
     --azul-degrade: linear-gradient(97.54deg, #5959AB 35.49%, #DC143C 165.37%);
+    --fonte-principal: "Itim";
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 300;
 }
 
 h1 {
